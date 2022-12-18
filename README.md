@@ -4,17 +4,15 @@ Another variable which would be interesting to explore would be the impact of ra
 
 
 
+(Gender was not an original aspect of the dataset so I employed the python gender-guesser library to estimate this)
+
+
+
 Using the matplotlib python library extension could help to visualise such patterns which exist within the Sotheby's auction house and the art market, provoking interesting thought as to whether consumers are willing to pay a higher price for an artwork of the same period/movement when it is created by a white, western or male artist
 
 
 
 <u>Sotheby's official website:  https://www.sothebys.com/en/</u>
-
-
-
-Gender was not an original aspect of the dataset so I employed the python gender-guesser library to estimate this
-
-
 
 Original source of dataset: https://www.kaggle.com/datasets/flkuhm/art-price-dataset/discussion/372366
 
