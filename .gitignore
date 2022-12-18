@@ -144,5 +144,4 @@ twitter_keys.json
 *.cer
 
 # unused files
-sotheby's_dataset.csv
 moma_artworks.csv
