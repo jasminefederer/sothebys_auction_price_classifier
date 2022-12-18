@@ -1,0 +1,23 @@
+ideas for ai classifiers using bayes theoreum:
+
+- the relationship between cases of (largely alcohol-related) domestic abuse/violence against women during football tournaments
+extemely relevant rn with the world cup
+(lots of written studies and campaigns can be found on this but there is currently no open source dataset to explore this, or at least that i could find)
+https://blogs.lse.ac.uk/politicsandpolicy/england-football-alcohol-domestic-violence/
+
+- police violence/shootings against unarmed victims and the correlation between those victims and their racial background
+
+- the most expensive pieces of art dispatched at auction, and the gender/ethnicity of the artist who created them - most infamous artworks and most successful artists understood to be largely white males from privately educated backgrounds... could be interesting to evaluate how this has changed possibly through representation across gallery spaces... it could also be investigated as to whether certain auction houses tend to favour the selling of certain artists over others in their acquisitions and collections
+> the most comprehensive open source dataset I found within my inital search on this did not have a column for the artist's gender so was hard to explore this within a classifier... upon further investigation I discovered that the only female artist included within the '50 best artworks of all time' was Frida Kahlo. The remaining 49 spanning across multiple centuries conceded to be men
+https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time (this very dataset has recieved 25186 downloads and 165848 views)
+same with most expensive artworks sold at all time dataset (too small in sample size to really draw conclusions greater than what could already be observed through a brief look... aka more men
+
+... UPDATE: I later found a tool which serves to classify gender from api/csv files - this could be a useful add on to work with in such cases > https://genderize.io/
+
+although the aforementioned dataset did not have many values to work with (only 50) so I did not wish to use this anyway
+classifiers really need as much data as possible to be trained on in order to be as accurate as possible
+*good data is important*
+
+decided to look more specifically into the collection from one gallery institution - moma provided most up to date data on this (updated monthly as opposed to the tate collection 2 years ago) moma collection was a more vast option to use with 218k individual artwork values and over 15k artists
+https://github.com/MuseumofModernArt/collection
+an interesting article to back my findings: where are all the women? // https://nymag.com/arts/art/features/40979/
